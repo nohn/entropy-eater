@@ -1,0 +1,13 @@
+%echo Generating a default key
+Key-Type: DSA
+Key-Length: 3072
+Subkey-Type: ELG-E
+Subkey-Length: 4096
+Name-Real: Entropy Eater
+Name-Email: entropy@example.com
+Expire-Date: 0
+Passphrase: abc
+%pubring entropy-eater.pub
+%secring entropy-eater.sec
+%commit
+%echo done

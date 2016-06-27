@@ -1,0 +1,2 @@
+entropy-eater.sh eats entropy
+entropy-watcher.c watches entropy (compile with gcc entropy-watcher.c -o entropy-watcher)
