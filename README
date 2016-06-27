@@ -1,2 +1,4 @@
-entropy-eater.c eats entropy (compile with gcc entropy-watcher.c -o entropy-eater)
-entropy-watcher.c watches entropy (compile with gcc entropy-watcher.c -o entropy-watcher)
+entropy-eater.c eats entropy
+entropy-watcher.c watches entropy
+
+Compile with "make compile"
